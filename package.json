@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "A test of React.js components to display the weather condition.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive",
     "lint": "jshint **.js",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "test": "mocha --recursive"
+    "watch": "nodemon server.js"
   },
   "keywords": [
     "weather"
@@ -21,7 +20,7 @@
     "jshint": "^2.6.0"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/MarcL/WeatherApp-React"
+    "type": "git",
+    "url": "https://github.com/MarcL/WeatherApp-React"
   }
 }

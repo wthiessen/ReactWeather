@@ -26,7 +26,7 @@ define(function (require) {
             });
 
             return div({className: 'weatherForecast'},
-                React.DOM.h3(null, '5 Day Forecast'),
+                React.DOM.h2(null, '7 Day Forecast'),
                 forecastComponents
             );
         }

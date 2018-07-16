@@ -30,7 +30,7 @@ define(function (require) {
         getInitialState: function() {
             return {
                 weatherData: null,
-                units: 'c',
+                units: 'f',
                 city: this.props.city
             };
         },
