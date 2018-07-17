@@ -30,7 +30,7 @@ define(function (require) {
         getInitialState: function() {
             return {
                 weatherData: null,
-                units: 'f',
+                units: 'c',
                 city: this.props.city
             };
         },
@@ -60,7 +60,7 @@ define(function (require) {
                         units: this.state.weatherData.units.temperature
                     }),
                     // Attribution
-                    YahooAttribution({link: this.state.weatherData.link})
+                   
                 );
             } else {
                 return div(null, React.DOM.i({className: 'fa fa-5x fa-refresh fa-spin'}));
